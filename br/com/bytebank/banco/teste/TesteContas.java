@@ -1,10 +1,12 @@
 package br.com.bytebank.banco.teste;
 
+import br.com.bytebank.banco.especial.ContaEspecial;
 import br.com.bytebank.banco.modelo.*;
 
 public class TesteContas {
 
 	public static void main(String[] args) throws SaldoInsuficienteException{
+
 
 		// Full Qualified Name (FQN) - quando temos a junção do nome do pacote com o nome da classe.			
 		ContaCorrente cc = new ContaCorrente(111, 111);
